@@ -1,0 +1,44 @@
+html,body{
+    max-width: 1440px;
+    margin: 0 auto;        
+    font-family: 'Sen';
+    color: #232536;     
+}
+
+.header__contaner{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    height: 67px;
+    padding: 26px 0;
+    color: #ffff;
+    background-color: #232536;     
+}
+
+
+
+
+.header__menu{
+    display: flex; 
+    align-items: center;
+    margin-right: 20px;
+}
+
+.header__menu-list{
+    display: contents;       
+}
+
+.menu__link{    
+    text-decoration: none;
+    transition: color 0.3s ease 0s;    
+}
+
+.header__menu-li{
+    list-style-type: none;        
+}
+
+.header a{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 600;
+}
