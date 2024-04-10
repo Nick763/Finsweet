@@ -5,32 +5,29 @@ html,body{
     color: #232536;     
 }
 
-.header__contaner{    
-    display: flex;
-    justify-content: space-between;
+.header__contaner{       
+    display: flex;    
     align-items: center;    
-    height: 67px;
-    padding: 26px 0;
+    height: 80px;
+    padding: 12px 80px 12px 83px;
     color: #ffff;
     background-color: #232536;     
 }
 
-
-
-
 .header__menu{
     display: flex; 
     align-items: center;
-    margin-right: 20px;
+    margin-left: 621px;
+    margin-right: 11px;
 }
 
 .header__menu-list{
     display: contents;       
 }
 
-.menu__link{    
-    text-decoration: none;
-    transition: color 0.3s ease 0s;    
+.menu__link{        
+    transition: color 0.3s ease 0s;
+    margin-right: 24px;       
 }
 
 .header__menu-li{
@@ -38,7 +35,21 @@ html,body{
 }
 
 .header a{
+    font-size: 16px;
     text-decoration: none;
     color: #ffff;
-    font-weight: 600;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.header__btn{
+    background-color: #ffff;
+    height: 56px;
+    width: 179px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 16px 48px;
+    border: none;    
+    cursor: pointer; 
 }
