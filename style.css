@@ -53,3 +53,9 @@ html,body{
     border: none;    
     cursor: pointer; 
 }
+
+.startup{
+    height: 720px;
+    background-image: url("images/overlay.svg"),
+                      url("images/man.svg");
+}
