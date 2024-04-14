@@ -5,6 +5,17 @@ html,body{
     color: #232536;     
 }
 
+button{
+    background-color: #FFD050;
+    height: 56px;
+    width: 204px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;    
+    border: none;    
+    cursor: pointer;    
+}
+
 .header__contaner{       
     display: flex;    
     align-items: center;    
@@ -101,3 +112,10 @@ html,body{
     margin-top: 30px;
 }
 
+.posts{
+    padding: 128px 78px 128px 80px;
+}
+
+.posts__conrainer{
+    display: flex;
+}
