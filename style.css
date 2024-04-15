@@ -118,11 +118,7 @@ p{
 
 .posts__conrainer{
     display: flex;
-    
-}
-
-.posts__featured-post{
-       
+    height: 804px;    
 }
 
 .posts__conrainer span{
@@ -142,6 +138,14 @@ p{
     border: 1px solid #6d6e761a;    
 }
 
+.posts__image{
+    margin-bottom: 32px;
+}
+
+.posts__name-date{
+    margin-bottom: 16px;
+}
+
 h2{
     font-size: 36px;
     font-weight: 700;
@@ -157,19 +161,42 @@ h3{
     letter-spacing: -1px;  
 }
 
-.posts__info p{
-    color: #6D6E76; 
+.posts__info h3{
+    margin-bottom: 16px;
 }
 
+.posts__info p{
+    color: #6D6E76;
+    margin-bottom: 32px; 
+}
+
+.posts__btn{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;    
+}
+
+.posts__all-posts{
+    width: 517px;
+}
 
 .posts__all-title{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 32px;
 }
 
 .posts__post-card{
     padding: 32px 116px 25px 32px;
+}
+
+.posts__post-card_selected{
+    background-color: #FBF6EA;
+}
+
+.posts__card-name-date{
+    padding-bottom: 8px;
 }
 
 h4{
