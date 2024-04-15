@@ -76,7 +76,7 @@ button{
     color: #FFFFFF;    
 }
 
-.hero-info h6{
+h6{
     font-family: "inter";
     font-size: 16px;
     font-weight: 400;
@@ -93,7 +93,7 @@ button{
     margin-bottom: 7px;
 }
 
-.hero-info p{
+p{
     font-family: "inter";
     font-size: 16px;
     font-weight: 400;
@@ -118,4 +118,62 @@ button{
 
 .posts__conrainer{
     display: flex;
+    
+}
+
+.posts__featured-post{
+       
+}
+
+.posts__conrainer span{
+    color: #592EA9;
+}
+
+.posts__conrainer label{
+    font-family: "inter";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;    
+}
+
+.posts__wrapper{
+    padding: 32px;
+    margin: 32px 32px 0 0;
+    border: 1px solid #6d6e761a;    
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;    
+}
+
+
+h3{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;  
+}
+
+.posts__info p{
+    color: #6D6E76; 
+}
+
+
+.posts__all-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.posts__post-card{
+    padding: 32px 116px 25px 32px;
+}
+
+h4{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;      
 }
