@@ -204,3 +204,59 @@ h4{
     font-weight: 700;
     line-height: 32px;      
 }
+
+.about-mision{
+    padding: 0 80px 128px 80px;
+}
+
+.about-mision__conrainer{
+    height: 523px;
+}
+
+.about-mision__pattern{
+    display: flex;
+    justify-content: end;
+}
+
+.about-mision__wrapper{
+    display: flex;
+    background-color: #F4F0F8;
+    padding: 96px 108px 96px 80px;
+}
+
+.about-mision__about-us{
+    width: 515px;
+    margin-right: 61px;
+}
+
+.about-mision__our-mision{
+    margin-top: 2px;
+    width: 516px;
+}
+
+.about-mision__conrainer h6{
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+.about-mision__conrainer h3{
+    margin-bottom: 16px;
+}
+
+.about-mision__conrainer h2{
+    margin-bottom: 16px;
+}
+
+.about-mision__conrainer p{
+    margin-bottom: 16px;
+}
+
+.about-mision__conrainer span{
+    margin-bottom: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #592EA9;  
+}
+
+
