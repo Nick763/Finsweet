@@ -297,3 +297,7 @@ h4{
 .choose__item h3{
     margin-bottom: 4px; 
 }
+
+.special-post{
+    padding: 0 80px 128px 80px;
+}
