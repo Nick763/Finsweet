@@ -249,6 +249,7 @@ h4{
 
 .about-mision__conrainer p{
     margin-bottom: 16px;
+    color: #6D6E76;
 }
 
 .about-mision__conrainer span{
@@ -277,6 +278,7 @@ h4{
 .choose__item{
     padding: 32px;
     width: 296px;
+    height: 228px;
     border: 1px solid #6d6e764d;  
 }
 
@@ -298,6 +300,54 @@ h4{
     margin-bottom: 4px; 
 }
 
+.choose__item p{
+    color: #6D6E76;
+}
+
 .special-post{
     padding: 0 80px 128px 80px;
+}
+
+.special-post__conrainer{
+    position: relative;
+    height: 705px;
+    background-image: url("images/special-post.svg");
+    background-repeat: no-repeat;
+}
+
+.special-post__content{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 706px;
+    height: 584px;
+    background-color: #FFFFFF;
+    padding: 80px;
+}
+
+.special-post__content h6{
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.special-post__content h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    margin-bottom: 16px;
+}
+
+.special-post__content p{
+    color: #6D6E76;
+}
+
+.special-post__btn{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    height: 56px;
+    width: 270px;
+    padding: 16px 48px 16px 48px;
+    margin-top: 32px;
 }
