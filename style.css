@@ -353,7 +353,7 @@ h4{
 }
 
 .list-of-authors{
-    padding: 0 80px 128px 80px;
+    padding: 0 80px 96px 80px;
 }
 
 .list-of-authors__title{
@@ -396,4 +396,37 @@ h4{
     display: flex;
     justify-content: space-between;
     width: 112px;
+}
+
+.logo-component{
+    padding: 0 80px 128px 80px;
+}
+
+.logo-component__conrainer{
+    display: flex;
+    margin-left: 15px;
+}
+
+.logo-component__text p{
+    font-size: 14px;    
+    line-height: 20px;
+    color: #6d6e7681; 
+}
+
+.logo-component__text h4{
+    color: #6D6E76; 
+}
+
+.logo-component__logo-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1015px;
+    margin-left: 86px;
+}
+
+.logo-component__image{
+    margin-top: 1px;
+    height: 32px;
+    opacity: 80%;
 }
