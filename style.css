@@ -288,7 +288,7 @@ h4{
 }
 
 .choose__icon{       
-    background-image: url("icons/icon_background.svg");
+    background-image: url("vectorgraphics/icons/icon_background.svg");
     margin-bottom: 16px;   
 }
 
@@ -350,4 +350,50 @@ h4{
     width: 270px;
     padding: 16px 48px 16px 48px;
     margin-top: 32px;
+}
+
+.list-of-authors{
+    padding: 0 80px 128px 80px;
+}
+
+.list-of-authors__title{
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+    margin-bottom: 48px;
+}
+
+.list-of-authors__authors{
+    display: flex;
+    justify-content: space-between
+}
+
+.list-of-authors__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    width: 296px;
+    height: 324px;
+    background-color: #F4F4F4;     
+}
+
+.list-of-authors__item_hover{
+    background-color: #FBF6EA;     
+}
+
+.list-of-authors__image{
+    margin-bottom: 20px;
+}
+
+.list-of-authors__item p{    
+    font-size: 14px;    
+    line-height: 20px;
+    margin-bottom: 17px;
+}
+
+.list-of-authors__social-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 112px;
 }
