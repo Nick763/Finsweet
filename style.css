@@ -302,11 +302,11 @@ h4{
 }
 
 .choose__icon{       
-    background-image: url("vectorgraphics/icons/icon_background.svg");
+    background-image: url("vectorgraphics/icons/icon-background.svg");
     margin-bottom: 16px;   
 }
 
-.choose__icon_2{
+.choose__icon-2{
     padding: 12px; 
 }
 
@@ -413,7 +413,7 @@ h4{
 }
 
 .logo-component{
-    padding: 0 80px 128px 80px;
+    padding: 0 80px 96px 80px;
 }
 
 .logo-component__conrainer{
@@ -424,7 +424,7 @@ h4{
 .logo-component__text p{
     font-size: 14px;    
     line-height: 20px;
-    color: #6d6e7681; 
+    color: #6D6E76; 
 }
 
 .logo-component__text h4{
@@ -443,4 +443,70 @@ h4{
     margin-top: 1px;
     height: 32px;
     opacity: 80%;
+}
+
+.testimonials{
+    padding: 0 80px 128px 80px;
+}
+
+.testimonials__conrainer{
+    background-color: #FBF6EA;
+    height: 464px;
+    padding: 80px 111px 74px 112px;
+    display: flex;    
+}
+
+.testimonials__heading{
+    width: 349px;    
+    margin: 12px 80px 98px 0;
+}
+
+.testimonials__heading h6{
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.testimonials__heading h2{
+    margin-bottom: 16px;
+}
+
+.testimonials__messages{
+    margin-left: 96px;
+}
+
+.testimonials__messages h4{
+    margin-bottom: 115px;
+}
+
+.testimonials__profile-and-buttons{
+    display: flex;
+}
+
+.testimonials__profile{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 7px;
+}
+
+.testimonials__profile-image{
+    margin-right: 16px;
+}
+
+.testimonials__profile-name h4{
+    margin-bottom: 0px;
+    white-space: nowrap;
+}
+
+.testimonials__profile-name p{
+    color: #6D6E76;
+}
+
+.testimonials__buttons{
+    margin-left: 141px;
+    width: 134px;    
+}
+
+.testimonials__button-back{
+    margin-right: 19px;
+    
 }
