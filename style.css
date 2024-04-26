@@ -510,3 +510,28 @@ h4{
     margin-right: 19px;
     
 }
+
+
+.join-team{
+    padding: 0 513px 128px 513px;
+}
+
+.join-team__conrainer{
+    text-align: center;
+}
+
+.join-team__conrainer h2{
+    margin-bottom: 16px;
+}
+
+.join-team__conrainer p{
+    margin-bottom: 32px;
+    color: #6D6E76;
+}
+
+.join-team__btn{    
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    width: 174px;    
+}
