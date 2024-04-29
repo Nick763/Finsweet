@@ -635,7 +635,8 @@ h4{
 }
 
 .footer__address{
-    color: #FFFFFF
+    color: #FFFFFF;
+    opacity: 70%;
 }
 
 .footer__social-wrapper{
