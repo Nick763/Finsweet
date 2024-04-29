@@ -41,7 +41,7 @@ button:hover {
     display: contents;       
 }
 
-.menu__link{        
+.header__link{        
     transition: color 0.3s ease 0s;
     margin-right: 24px;       
 }
@@ -55,10 +55,12 @@ button:hover {
 }
 
 .header a{
+    font-family: "inter";
     font-size: 16px;
-    text-decoration: none;
-    color: #ffff;
     font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+    color: #ffff;    
     white-space: nowrap;
 }
 
@@ -534,4 +536,111 @@ h4{
     font-weight: 700;
     line-height: 24px;
     width: 174px;    
+}
+
+.footer{
+    background-color: #232536;
+    padding: 58px 80px 56px 80px;
+}
+
+.footer__conrainer{
+
+}
+
+.footer__top{
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;      
+    color: #ffff;
+    margin-bottom: 54.65px;        
+}
+
+.footer__logo{
+    margin: 2px 0 0 2px;
+}
+
+.footer__menu{
+    display: flex; 
+    align-items: center;    
+}
+
+.footer__menu-list{
+    display: contents;       
+}
+
+.footer__link{        
+    transition: color 0.3s ease 0s;
+    margin-left: 25px;     
+}
+
+.footer__link:hover{        
+    color: #f4f0f8aa;    
+}
+
+.footer__menu-li{
+    list-style-type: none;        
+}
+
+.footer a{
+    font-family: "inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+    color: #ffff;    
+    white-space: nowrap;
+}
+
+.footer__subscription-form{    
+    padding: 80px 64px 80px 64px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2e3040
+}
+
+
+.footer__subscription-form h2{
+    color: #ffff;
+}
+
+.footer__form{
+    margin-top: 5px;
+}
+
+.footer__subscription-form input {
+    background-color: #2e3040;    
+    border: 1px solid #4C4C4C;
+    padding: 14px 0 14px 24.92px;   
+    color: #6D6E76;
+    font-family: "inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 323px;
+    height: 56px;                
+}
+
+.footer__btn{
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    width: 179px;  
+}
+
+.footer__bottom{
+    padding: 48px 0 56px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__address{
+    color: #FFFFFF
+}
+
+.footer__social-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 144px;
+    margin-top: 5px;
 }
