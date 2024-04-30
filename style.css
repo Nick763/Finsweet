@@ -670,7 +670,7 @@ h4{
 
 .blog-main-content{
     padding: 80px;
-    background-color: #F4F0F8;
+    background-color: #F4F0F8;    
 }
 
 .blog-main-content__conrainer{
@@ -699,4 +699,43 @@ h4{
 
 .blog-main-content__btn{
     margin-left: 4px;
+}
+
+.all-posts{
+    padding: 64px 79px 57px 80px;    
+}
+
+.all-posts h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;        
+    margin-bottom: 20px; 
+}
+
+.all-posts__line{
+    max-width: none;
+}
+
+.blogs-cards{
+    padding: 0 0 64px 80px;
+}
+
+.blogs-cards__conrainer{
+    display: flex;
+    align-items: center;
+}
+
+.blogs-cards__img-wrapper{
+    margin-right: 32px;
+}
+
+.blogs-cards__text h6{
+    color: #592EA9;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.blogs-cards__text h2{
+    margin-bottom: 16px;
 }
