@@ -718,12 +718,13 @@ h4{
 }
 
 .blogs-cards{
-    padding: 0 0 64px 80px;
+    padding: 0 0 0 80px;
 }
 
-.blogs-cards__conrainer{
+.blogs-cards__card{
     display: flex;
     align-items: center;
+    margin-bottom: 64px;
 }
 
 .blogs-cards__img-wrapper{
@@ -738,4 +739,36 @@ h4{
 
 .blogs-cards__text h2{
     margin-bottom: 16px;
+}
+
+.pagination{
+    margin-bottom: 64px;
+}
+
+.pagination__conrainer{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination__buttons{
+    margin-left: 40px;
+}
+
+.pagination-btn{
+    border: none;
+    background-color: inherit; 
+    cursor: pointer;
+    margin-right: 14px;    
+}
+
+.pagination-btn:hover {
+    background-color: inherit;
+  }
+
+.pagination-btn h4{
+    color: #6D6E76;   
+}
+
+.choose__title-blog{
+    justify-content: flex-start;
 }
