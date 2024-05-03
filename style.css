@@ -541,9 +541,18 @@ h4{
     width: 134px;    
 }
 
+.testimonials-btn{
+    border: none;
+    background-color: inherit; 
+    cursor: pointer;      
+}
+
+.testimonials-btn:hover {
+    background-color: inherit;
+  }
+
 .testimonials__button-back{
-    margin-right: 19px;
-    
+    margin-right: 19px;    
 }
 
 
