@@ -840,3 +840,73 @@ h4{
 .main-photo-of-post{
     padding: 0 80px 64px 80px;
 }
+
+.blog-content{
+    padding: 0 298px 80px 299px;
+}
+
+.blog-content__contaner{
+    width: 843px;
+}
+
+.blog-content__text{
+    margin-bottom: 48px;
+}
+
+.blog-content__text h2{
+    margin-bottom: 16px;
+}
+
+.blog-content__text p{
+    margin-bottom: 24px;
+}
+
+.blog-content__text ul{
+    margin-bottom: 24px;
+    margin-left: 19px
+}
+
+.blog-content__text li{
+    margin-bottom: 2px
+}
+
+.blog-content__text li::marker{
+    color: #4C4C4C;
+}
+
+.blog-content__text h4{
+    color: #161722;
+    opacity: 78%;
+}
+
+.other-posts{
+    padding: 0 80px 128px 80px;
+}
+
+.other-posts__contaner{
+    border-bottom: 1px solid #6d6e761a;
+}
+
+
+.other-posts__title{
+    margin-bottom: 64px;
+}
+
+.other-posts__cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.other-posts__card{
+    width: 405px;
+}
+
+.other-posts__image{
+    margin-bottom: 32px;
+}
+
+.other-posts__card h3{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
