@@ -574,11 +574,14 @@ h4{
 
 
 .join-team{
-    padding: 0 513px 128px 513px;
+    padding: 0 0 128px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .join-team__conrainer{
     text-align: center;
+    width: 414px;
 }
 
 .join-team__conrainer h2{
@@ -909,4 +912,9 @@ h4{
 .other-posts__card h3{
     margin-top: 16px;
     margin-bottom: 16px;
+    color: #232536;
+}
+
+.join-team_blog-post{
+    padding: 0 14px 128px 0;
 }
