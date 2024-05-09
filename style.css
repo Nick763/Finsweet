@@ -355,6 +355,7 @@ h4{
 
 .choose__icon{       
     background-image: url("vectorgraphics/icons/icon-background.svg");
+    background-repeat:no-repeat;
     margin-bottom: 16px;   
 }
 
@@ -917,4 +918,81 @@ h4{
 
 .join-team_blog-post{
     padding: 0 14px 128px 0;
+}
+
+.about-us{
+    padding: 0 80px 0 80px;
+}
+
+.team{
+    padding-top: 80px;
+}
+
+.team__contaner{
+    display: flex;        
+    margin-left: 109px;
+}
+
+.team__title{
+    width: 624px;
+    padding: 64px;
+    background-color: white;
+}
+
+.team__title h6{
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.team__title h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;  
+}
+
+.team__text{
+    width: 477px;
+    height: 112px;
+    margin: 102px 0 0 32px
+}
+
+.overview{
+    margin-top: -63px;
+    position: relative;
+    z-index: -1;
+}
+
+.overview__contaner{    
+    height: 444px;
+    background-image: url(images/overview-img.svg);
+    position: relative;
+}
+
+.overview__indicators{
+    position: absolute;    
+    bottom: 0;
+    left: 109px;
+}
+
+.indicators-wrapper{
+    width: 630px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFD050;
+    padding: 32px 48px 32px 48px;
+}
+
+.overview__indicators h1{
+    font-size: 56px; 
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;   
+}
+
+.overview__indicators p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #232536;     
 }
