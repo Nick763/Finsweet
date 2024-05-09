@@ -996,3 +996,63 @@ h4{
     line-height: 28px;
     color: #232536;     
 }
+
+.our-m-v{
+    padding: 128px 108px 62px 108px;
+    background-color: #F4F0F8;    
+}
+
+.our-m-v__contaner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-m-v h6{
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.our-m-v h3{
+    margin-bottom: 16px;
+}
+
+.our-m-v p{
+    width: 516px;
+}
+
+.know-more{
+    padding-top: 128px;    
+}
+
+.know-more__contaner{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.know-more__text{
+    width: 519px;
+}
+
+.know-more h2{
+    margin-bottom: 16px;
+}
+
+.know-more h4{
+    margin-bottom: 16px;
+}
+
+.know-more p{
+    color: #232536;
+}
+
+.know-more__image-wrapper{
+    position: relative;
+}
+
+.know-more__shapes{
+    position: absolute;
+    left: -57px;
+    top: 114px;
+}
