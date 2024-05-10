@@ -22,3 +22,14 @@ document.querySelectorAll('.choose__item').forEach(e=>{
     this.classList.remove('choose__item_selected')
   })
 })
+
+//chooseAuthor
+
+document.querySelectorAll('.list-of-authors__item').forEach(e=>{
+  e.addEventListener('mouseover',function(){
+    this.classList.add('list-of-authors__item_hover')
+  })
+  e.addEventListener('mouseout',function(){
+    this.classList.remove('list-of-authors__item_hover')
+  })
+})

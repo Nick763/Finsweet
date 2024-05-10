@@ -1025,8 +1025,7 @@ h4{
 }
 
 .know-more__contaner{
-    display: flex;
-    
+    display: flex;    
     justify-content: space-between;
     align-items: center;
 }
@@ -1055,4 +1054,48 @@ h4{
     position: absolute;
     left: -57px;
     top: 114px;
+}
+
+.why-strated{
+    padding: 128px 0 128px 0;    
+}
+
+.why-strated__contaner{
+    display: flex;    
+    align-items: center;
+}
+
+.why-strated__image-wrapper{
+    margin-right: 64px;
+    position: relative;
+}
+
+.why-strated__text{
+    width: 519px;
+}
+
+.why-strated h2{
+    margin-bottom: 16px;
+}
+
+.why-strated h4{
+    margin-bottom: 16px;
+}
+
+.why-strated p{
+    color: #232536;
+}
+
+.why-strated__shapes{
+    position: absolute;
+    bottom: -37px;
+    left: 107px;
+}
+
+.list-of-authors_ab-us{
+    padding: 0 0 127px 0
+}
+
+.list-of-authors__authors_second-row{
+    padding-top: 32px;
 }
