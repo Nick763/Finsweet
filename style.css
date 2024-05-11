@@ -1099,3 +1099,58 @@ h4{
 .list-of-authors__authors_second-row{
     padding-top: 32px;
 }
+
+.name-of-category{
+    background-color: #F4F0F8;
+    padding: 80px 0 80px 0;  
+}
+
+.name-of-category__conrainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-of-category h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    margin-bottom: 16px; 
+}
+
+.name-of-category p{
+    margin-bottom: 32px;
+    width: 515px;
+    text-align: center;
+}
+
+.name-of-category h6{
+    font-weight: 500;
+}
+
+.category-section{
+    padding: 128px 79px 128px 79px; 
+}
+
+.category-section__conrainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-section__item{
+    display: flex;
+    width: 838px;
+}
+
+.category-section__categories{
+    width: 298px;
+}
+
+.categories-wrapper{
+
+}
+
+.category-section__category-card{
+    display: flex;
+}
