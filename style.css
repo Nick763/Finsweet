@@ -415,7 +415,7 @@ h4{
     line-height: 24px;
     height: 56px;
     width: 270px;
-    padding: 16px 48px 16px 48px;
+    padding: 16px 48px;
     margin-top: 32px;
 }
 
@@ -651,7 +651,7 @@ h4{
 }
 
 .footer__subscription-form{    
-    padding: 80px 64px 80px 64px;
+    padding: 80px 64px;
     display: flex;
     justify-content: space-between;
     background-color: #2e3040
@@ -921,7 +921,7 @@ h4{
 }
 
 .about-us{
-    padding: 0 80px 0 80px;
+    padding: 0px 80px;
 }
 
 .team{
@@ -1057,7 +1057,7 @@ h4{
 }
 
 .why-strated{
-    padding: 128px 0 128px 0;    
+    padding: 128px 0px;    
 }
 
 .why-strated__contaner{
@@ -1102,7 +1102,7 @@ h4{
 
 .name-of-category{
     background-color: #F4F0F8;
-    padding: 80px 0 80px 0;  
+    padding: 80px 0px;  
 }
 
 .name-of-category__conrainer{
@@ -1130,7 +1130,7 @@ h4{
 }
 
 .category-section{
-    padding: 128px 79px 128px 79px; 
+    padding: 128px 81px 96px 81px; 
 }
 
 .category-section__conrainer{
@@ -1140,7 +1140,24 @@ h4{
 
 .category-section__item{
     display: flex;
-    width: 838px;
+    width: 838px;    
+    margin-bottom: 32px;
+}
+
+.category-section__text{
+    width: 544px;
+    padding: 38px 0 38px 32px;
+}
+
+.category-section__item h6{
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #592EA9;
+}
+
+.category-section__item h2{
+    font-weight: 700;
+    margin-bottom: 16px;
 }
 
 .category-section__categories{
@@ -1148,9 +1165,106 @@ h4{
 }
 
 .categories-wrapper{
-
+    padding-left: 1px;
 }
 
-.category-section__category-card{
+.category-section__title-cat{
+    padding: 0 0 40px 4px;    
+}
+
+.category-section__category-cards{
+    margin-bottom: 48px;
+}
+
+.category-section__category-card{    
+    padding: 23px 24px 24px 24px;
+    width: 296px;
+    height: 96px;
+    border: 1.5px solid #C1C1C3;
+    transition: background-color 0.7s ease;
+    margin-bottom: 24px;
+} 
+
+.category-section__category-link{
+    text-decoration: none;
+    color: #232536;
     display: flex;
+    align-items: center
 }
+
+.category-section__category-card h3{
+    margin-left: 16px;
+}
+
+
+.category-section__category-card_selected{
+    background-color: #FFD050;
+    border: 1px solid #FFD050;  
+}
+
+.category-section__card-icon{       
+    background-image: url("vectorgraphics/icons/icon-background.svg");
+    background-repeat:no-repeat;      
+}
+
+.category-section__card-icon-2{
+    padding: 12px; 
+}
+
+.category-section__category-labels{
+    padding-top: 24px;
+}
+
+.category-section__category-label{    
+    display: grid;
+    grid-template-columns: repeat(6, 1.5fr);
+    grid-template-rows: repeat(3, 48px);
+    grid-gap: 16px;   
+    grid-template-areas:
+    "business business business experience experience experience"
+    "screen screen technology technology technology technology"
+    "marketing marketing marketing marketing life life";     
+}
+
+.label-business{
+    grid-area: business;
+}
+
+.label-experience{
+    grid-area: experience;
+}
+
+.label-screen{
+    grid-area: screen;
+}
+
+.label-technology{
+    grid-area: technology;
+}
+
+.label-marketing{
+    grid-area: marketing;
+}
+
+.label-life{
+    grid-area: life;
+}
+
+.category-section__category-label button{
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #6D6E76;
+    opacity: 70%;
+    border-radius: 28px;
+    font-family: "Sen";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 32px;      
+}
+
+.category-section__category-label button:hover {
+    background-color: #F4F0F8;
+    opacity: 100%;
+    border: 1.5px solid #6d6e76b4;   
+    transition: background-color 0.3s ease-in;
+  }

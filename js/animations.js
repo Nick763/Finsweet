@@ -33,3 +33,14 @@ document.querySelectorAll('.list-of-authors__item').forEach(e=>{
     this.classList.remove('list-of-authors__item_hover')
   })
 })
+
+//categoryCard
+
+document.querySelectorAll('.category-section__category-card').forEach(e=>{
+  e.addEventListener('mouseover',function(){
+    this.classList.add('category-section__category-card_selected')
+  })
+  e.addEventListener('mouseout',function(){
+    this.classList.remove('category-section__category-card_selected')
+  })
+})
