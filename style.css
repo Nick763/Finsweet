@@ -1219,7 +1219,8 @@ h4{
     display: grid;
     grid-template-columns: repeat(6, 1.5fr);
     grid-template-rows: repeat(3, 48px);
-    grid-gap: 16px;   
+    grid-gap: 16px;
+       
     grid-template-areas:
     "business business business experience experience experience"
     "screen screen technology technology technology technology"
@@ -1265,6 +1266,6 @@ h4{
 .category-section__category-label button:hover {
     background-color: #F4F0F8;
     opacity: 100%;
-    border: 1.5px solid #6d6e76b4;   
+    border: 2.5px solid #6d6e76b4;   
     transition: background-color 0.3s ease-in;
   }
