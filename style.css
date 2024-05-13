@@ -1346,4 +1346,40 @@ h4{
     
 }
 
+.contact-us{
+    padding: 128px 336px;
+}
 
+.contact-title{    
+    text-align: center;
+}
+
+.contact-title h6{
+    font-weight: 600;
+    margin-bottom: 12px;    
+}
+
+.contact-title h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    margin-bottom: 24px;
+}   
+
+.info-card{    
+    padding: 64px 0 32px 0;
+}
+
+.info-card__conrainer{
+    background-color: #592EA9;
+    padding-left: 64px;
+    padding-top: 48px;
+}
+
+.info-card__line{
+    width: 294px;
+    border-top: 1px solid #FFFFFF;
+    opacity: 10%;
+    
+}
