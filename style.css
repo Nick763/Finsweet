@@ -693,7 +693,7 @@ h4{
     justify-content: space-between;
 }
 
-.footer__address{
+.footer__address p{
     color: #FFFFFF;
     opacity: 70%;
 }
@@ -1451,4 +1451,40 @@ h5{
     font-family: "Sen";
     font-size: 24px;    
     line-height: 32px; 
+}
+
+.policy-title{
+    background-color: #F4F0F8;
+    padding: 80px 0px;  
+}
+
+.policy-title__conrainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.privacy-policy h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    margin-bottom: 4px; 
+}
+
+.policy-content{
+    padding: 128px 336px 100px 336px;
+}
+
+.policy-content h1{
+    margin-bottom: 32px; 
+}
+
+.policy-content h2{
+    margin-top: 32px;
+    margin-bottom: 24px; 
+}
+
+.policy-content__text2 p{
+    margin-bottom: 28px;
 }
