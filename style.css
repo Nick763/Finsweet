@@ -1355,7 +1355,7 @@ h4{
 }
 
 .contact-title h6{
-    font-weight: 600;
+    font-weight: 900;
     margin-bottom: 12px;    
 }
 
@@ -1372,14 +1372,83 @@ h4{
 }
 
 .info-card__conrainer{
+    display: flex;
     background-color: #592EA9;
-    padding-left: 64px;
-    padding-top: 48px;
+    color: #FFFFFF;
+    padding: 48px 0 48px 64px;    
+}
+
+.info-card__working-hours{
+    margin-right: 42px;
+}
+
+.info-card__titles{
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 60%;
+    margin-bottom: 16px;
 }
 
 .info-card__line{
     width: 294px;
     border-top: 1px solid #FFFFFF;
     opacity: 10%;
-    
+    margin-bottom: 16px;    
+}
+
+h5{    
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.info-card p{    
+    color: #FFFFFF;
+    opacity: 60%;
+}
+
+.contact-form__group input{
+    width: 100%;
+    height: 76px;
+    padding: 24px;
+    margin-bottom: 16px;
+    border: 1px solid #6d6e7680;
+}
+
+
+.contact-form__group ::placeholder{
+    color: #232536;
+    font-family: "inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.contact-form__group select{
+    width: 100%;
+    height: 76px;
+    padding: 24px;
+    margin-bottom: 16px;
+    appearance: none;
+    background: url(vectorgraphics/contact-arrow-custom.svg) no-repeat right;
+    background-position-x: calc(100% - 60px);
+    border: 1px solid #6d6e7680;
+}
+
+.input-message textarea{
+    resize: none;
+    padding: 24px;
+    width: 100%;
+    height: 144px;
+    margin-bottom: 10px;
+    border: 1px solid #6d6e7680;
+}
+
+.contact-form__btn{
+    width: 100%;
+    height: 64px;
+    font-family: "Sen";
+    font-size: 24px;    
+    line-height: 32px; 
 }
