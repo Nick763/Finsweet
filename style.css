@@ -247,7 +247,7 @@ h3{
     transition: background-color 0.7s ease; 
 }
 
-.posts__post-card_selected{
+.posts__post-card:hover{
     background-color: #FBF6EA;
 }
 
@@ -348,7 +348,7 @@ h4{
     transition: background-color 0.7s ease;    
 }
 
-.choose__item_selected{
+.choose__item:hover{
     background-color: #FFD050;
     border: 1px solid #FFD050;  
 }
@@ -445,7 +445,7 @@ h4{
     background-color: #F4F4F4;     
 }
 
-.list-of-authors__item_hover{
+.list-of-authors__item:hover{
     background-color: #FBF6EA;     
 }
 
@@ -1197,7 +1197,7 @@ h4{
 }
 
 
-.category-section__category-card_selected{
+.category-section__category-card:hover{
     background-color: #FFD050;
     border: 1px solid #FFD050;  
 }
