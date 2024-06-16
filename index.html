@@ -1,316 +1,360 @@
 <!DOCTYPE html>
-<html lang="ru">	
-	<head>		
-		<title>Home - Finsweet</title>
-        <meta charset="UTF-8">		
-		<link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="reset.css">
-        <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	</head>
+<html lang="ru">
 
-    <body>
-        <header class="header">
-            <div class="header__contaner">
-                <img class="header__logo" src="vectorgraphics/finsweet-logo.svg">
-                <nav class="header__menu">                    
-                    <ul class="header__menu-list">
-                        <li class="header__menu-li"><a href="index.html" class="header__link">Home</a></li>
-                        <li class="header__menu-li"><a href="blog.html" class="header__link">Blog</a></li>
-                        <li class="header__menu-li"><a href="about-us.html" class="header__link">About Us</a></li>
-                        <li class="header__menu-li"><a href="contact-us.html" class="header__link">Contact us</a></li>
+<head>
+    <title>Home - Finsweet</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__contaner">
+            <img class="header__logo" src="vectorgraphics/finsweet-logo.svg">
+            <nav class="header__menu">
+                <ul class="header__menu-list">
+                    <li class="header__menu-li"><a href="index.html" class="header__link">Home</a></li>
+                    <li class="header__menu-li"><a href="blog.html" class="header__link">Blog</a></li>
+                    <li class="header__menu-li"><a href="about-us.html" class="header__link">About Us</a></li>
+                    <li class="header__menu-li"><a href="contact-us.html" class="header__link">Contact us</a></li>
+                </ul>
+            </nav>
+            <button class="btn header__btn">Subscribe</button>
+        </div>
+    </header>
+
+    <main class="home">
+        <div class="hero-info">
+            <div class="hero-info__conrainer">
+                <h6>POSTED ON <span style="font-weight: 900;">STARTUP</span></h6>
+                <h1 class="display hero-info__display">Step-by-step guide to choosing great font pairs</h1>
+                <p>By <a href="author.html" class="hero-info__link-author"><span style="color: #FFD050" ;> James
+                            West</span></a> &nbsp|&nbsp May 23, 2022</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu<br>
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                <button class="btn hero-info__btn" onclick="document.location='blog-post.html'">Read More ></button>
+            </div>
+        </div>
+
+        <div class="posts">
+            <div class="posts__conrainer">
+                <div class="posts__featured-post">
+                    <h2>Featured Post</h2>
+                    <div class="posts__wrapper">
+                        <img class="posts__image" src="images/featured post.jpg">
+                        <div class="name-date posts__name-date"><label>By <a href="author.html"
+                                    class="posts__link-author"><span>John Doe</span></a> &nbsp I &nbsp May 23,
+                                2022</label></div>
+                        <div class="posts__info">
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit, sed do eiusmod tempor.</h3>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore<br>
+                                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                        </div>
+                        <button class="btn posts__btn" onclick="document.location='blog-post.html'">Read More ></button>
+                    </div>
+                </div>
+                <div class="posts__all-posts">
+                    <div class="posts__wrapper-all">
+                        <div class="posts__all-title">
+                            <h2>All Posts</h2>
+                            <a href="blog.html" class="posts__link"><span>View All</span></a>
+                        </div>
+                        <div class="posts__post-card">
+                            <div class="name-date posts__card-name-date">
+                                <label>By <a href="author.html" class="posts__link-author"><span>John
+                                            Doe</span></a> &nbsp I &nbsp Aug 23, 2021</label>
+                            </div>
+                            <a href="blog-post.html" class="posts__link-post">
+                                <h4>8 Figma design systems that<br> you can download for free<br> today.</h4>
+                            </a>
+                        </div>
+                        <div class="posts__post-card">
+                            <div class="name-date posts__card-name-date">
+                                <label>By <a href="author.html" class="posts__link-author"><span>John
+                                            Doe</span></a> &nbsp I &nbsp Aug 23, 2021</label>
+                            </div>
+                            <a href="blog-post.html" class="posts__link-post">
+                                <h4>8 Figma design systems that<br> you can download for free<br> today.</h4>
+                            </a>
+                        </div>
+                        <div class="posts__post-card">
+                            <div class="name-date posts__card-name-date">
+                                <label>By <a href="author.html" class="posts__link-author"><span>John
+                                            Doe</span></a> &nbsp I &nbsp Aug 23, 2021</label>
+                            </div>
+                            <a href="blog-post.html" class="posts__link-post">
+                                <h4>8 Figma design systems that<br> you can download for free<br> today.</h4>
+                            </a>
+                        </div>
+                        <div class="posts__post-card">
+                            <div class="name-date posts__card-name-date">
+                                <label>By <a href="author.html" class="posts__link-author"><span>John
+                                            Doe</span></a> &nbsp I &nbsp Aug 23, 2021</label>
+                            </div>
+                            <a href="blog-post.html" class="posts__link-post">
+                                <h4>8 Figma design systems that<br> you can download for free<br> today.</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-mision">
+            <div class="about-mision__conrainer">
+                <div class="about-mision__pattern">
+                    <img src="vectorgraphics/pattern.svg">
+                </div>
+                <div class="about-mision__wrapper">
+                    <div class="about-mision__about-us">
+                        <h6>ABOUT US</h6>
+                        <h2>We are a community of<br> content writers who share their<br> learnings</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                        <a href="about-us.html" class="about-mision__link"><span>Read More ></span></a>
+                    </div>
+                    <div class="about-mision__our-mision">
+                        <h6>OUR MISION</h6>
+                        <h3>Creating valuable content for<br> creatives all around the world</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                            commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="choose">
+            <div class="choose__conrainer">
+                <div class="choose__title">
+                    <h2>Choose A Catagory</h2>
+                </div>
+                <div class="choose__catagories">
+                    <div class="choose__item">
+                        <a href="category.html" class="choose__item__link">
+                            <img class="choose__icon" src="vectorgraphics/icons/icon-1.svg">
+                            <h3>Business</h3>
+                            <p>Lorem ipsum dolor sit amet,<br> consectetuer adipiscing elit.</p>
+                        </a>
+                    </div>
+                    <div class="choose__item">
+                        <a href="category.html" class="choose__item__link">
+                            <img class="choose__icon choose__icon-2" src="vectorgraphics/icons/icon-2.svg">
+                            <h3>Startup</h3>
+                            <p>Lorem ipsum dolor sit amet,<br> consectetuer adipiscing elit.</p>
+                        </a>
+                    </div>
+                    <div class="choose__item">
+                        <a href="category.html" class="choose__item__link">
+                            <img class="choose__icon" src="vectorgraphics/icons/icon-3.svg">
+                            <h3>Economy</h3>
+                            <p>Lorem ipsum dolor sit amet,<br> consectetuer adipiscing elit.</p>
+                        </a>
+                    </div>
+                    <div class="choose__item">
+                        <a href="category.html" class="choose__item__link">
+                            <img class="choose__icon" src="vectorgraphics/icons/icon-4.svg">
+                            <h3>Technology</h3>
+                            <p>Lorem ipsum dolor sit amet,<br> consectetuer adipiscing elit.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="special-post">
+            <div class="special-post__conrainer">
+                <div class="special-post__content">
+                    <h6>WHY WE STARTED</h6>
+                    <h1>It started out as a simple idea and evolved into our passion</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                    </p>
+                    <button class="btn special-post__btn" onclick="document.location='about-us.html'">Discover our story
+                        ></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="list-of-authors">
+            <div class="list-of-authors__conrainer">
+                <div class="list-of-authors__title">
+                    <h2>List of Authors</h2>
+                </div>
+                <div class="list-of-authors__authors">
+                    <div class="list-of-authors__item">
+                        <a class="list-of-authors__link-author" href="author.html"><img class="list-of-authors__image"
+                                src="images/author-1.svg"></a>
+                        <h3>Floyd Miles</h3>
+                        <p>Content Writer @Company</p>
+                        <div class="social-wrapper list-of-authors__social-wrapper">
+                            <a class="list-of-authors__social-logo" href=""><img
+                                    src="vectorgraphics/icons/Facebook.svg"></a>
+                            <a class="list-of-authors__social-logo" href=""><img
+                                    src="vectorgraphics/icons/twitter.svg"></a>
+                            <a class="list-of-authors__social-logo" href=""><img
+                                    src="vectorgraphics/icons/instagram.svg"></a>
+                            <a class="list-of-authors__social-logo" href=""><img
+                                    src="vectorgraphics/icons/LinkedIn.svg"></a>
+                        </div>
+
+                    </div>
+                    <div class="list-of-authors__item">
+                        <a class="list-of-authors__link-author" href="author.html"><img class="list-of-authors__image"
+                                src="images/author-2.svg"></a>
+                        <h3>Dianne Russell</h3>
+                        <p>Content Writer @Company</p>
+                        <div class="social-wrapper list-of-authors__social-wrapper">
+                            <a class="list-of-authors__social-logo" href=""><img
+                                    src="vectorgraphics/icons/Facebook.svg"></a>
+                            <a class="list-of-authors__social-logo" href=""><img
+                                    src="vectorgraphics/icons/twitter.svg"></a>
+                            <a class="list-of-authors__social-logo" href=""><img
+                                    src="vectorgraphics/icons/instagram.svg"></a>
+                            <a class="list-of-authors__social-logo" href=""><img
+                                    src="vectorgraphics/icons/LinkedIn.svg"></a>
+                        </div>
+                    </div>
+                    <div class="list-of-authors__item">
+                        <a class="list-of-authors__link-author" href="author.html"><img class="list-of-authors__image"
+                                src="images/author-3.svg"></a>
+                        <h3>Jenny Wilson</h3>
+                        <p>Content Writer @Company</p>
+                        <div class="social-wrapper list-of-authors__social-wrapper">
+                            <a class="list-of-authors__social-logo" href=""><img
+                                    src="vectorgraphics/icons/Facebook.svg"></a>
+                            <a class="list-of-authors__social-logo" href=""><img
+                                    src="vectorgraphics/icons/twitter.svg"></a>
+                            <a class="list-of-authors__social-logo" href=""><img
+                                    src="vectorgraphics/icons/instagram.svg"></a>
+                            <a class="list-of-authors__social-logo" href=""><img
+                                    src="vectorgraphics/icons/LinkedIn.svg"></a>
+                        </div>
+                    </div>
+                    <div class="list-of-authors__item">
+                        <a class="list-of-authors__link-author" href="author.html"><img class="list-of-authors__image"
+                                src="images/author-4.svg"></a>
+                        <h3>Leslie Alexander</h3>
+                        <p>Content Writer @Company</p>
+                        <div class="social-wrapper list-of-authors__social-wrapper">
+                            <a class="list-of-authors__social-logo" href=""><img
+                                    src="vectorgraphics/icons/Facebook.svg"></a>
+                            <a class="list-of-authors__social-logo" href=""><img
+                                    src="vectorgraphics/icons/twitter.svg"></a>
+                            <a class="list-of-authors__social-logo" href=""><img
+                                    src="vectorgraphics/icons/instagram.svg"></a>
+                            <a class="list-of-authors__social-logo" href=""><img
+                                    src="vectorgraphics/icons/LinkedIn.svg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="logo-component">
+            <div class="logo-component__conrainer">
+                <div class="logo-component__text">
+                    <p>We are</p>
+                    <h4>Featured in</h4>
+                </div>
+                <div class="logo-component__logo-wrapper">
+                    <img class="logo-component__image" src="vectorgraphics/logos/logo-1.svg">
+                    <img class="logo-component__image" src="vectorgraphics/logos/logo-2.svg">
+                    <img class="logo-component__image" src="vectorgraphics/logos/logo-3.svg">
+                    <img class="logo-component__image" src="vectorgraphics/logos/logo-4.svg">
+                    <img class="logo-component__image" src="vectorgraphics/logos/logo-5.svg">
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonials">
+            <div class="testimonials__conrainer">
+                <div class="testimonials__heading">
+                    <h6>TESTIMONIALS</h6>
+                    <h2>What people say about our blog</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+                <div class="testimonials__division">
+                    <img class="testimonials__line" src="vectorgraphics/line-1.svg">
+                </div>
+                <div class="testimonials__messages">
+                    <h4>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do<br> eiusmod tempor
+                        incididunt ut labore et<br> dolore magna aliqua.</h4>
+                    <div class="testimonials__profile-and-buttons">
+                        <div class="testimonials__profile">
+                            <img class="testimonials__profile-image" src="images/profile-pic.svg">
+                            <div class="testimonials__profile-name">
+                                <h4>Jonathan Vallem</h4>
+                                <p>New york, USA</p>
+                            </div>
+                        </div>
+                        <div class="testimonials__buttons">
+                            <button class="testimonials-btn"><img class="testimonials__button-back"
+                                    src="vectorgraphics/back-button.svg"></button>
+                            <button class="testimonials-btn"><img class="testimonials__button-next"
+                                    src="vectorgraphics/next-button.svg"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="join-team">
+            <div class="join-team__conrainer">
+                <h2>Join our team to be a part of our story</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <button class="btn join-team__btn">Join Now</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__conrainer">
+            <div class="footer__top">
+                <img class="footer__logo" src="vectorgraphics/finsweet-logo.svg">
+                <nav class="footer__menu">
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-li"><a href="index.html" class="footer__link">Home</a></li>
+                        <li class="footer__menu-li"><a href="blog.html" class="footer__link">Blog</a></li>
+                        <li class="footer__menu-li"><a href="about-us.html" class="footer__link">About us</a></li>
+                        <li class="footer__menu-li"><a href="contact-us.html" class="footer__link">Contact us</a></li>
+                        <li class="footer__menu-li"><a href="privacy-policy.html" class="footer__link">Privacy
+                                Policy</a></li>
                     </ul>
                 </nav>
-                <button class="btn header__btn">Subscribe</button>
             </div>
-        </header>
 
-        <main class="home">
-            <div class="hero-info">
-                <div class="hero-info__conrainer">
-                    <h6>POSTED ON <span style="font-weight: 900;">STARTUP</span></h6>
-                    <h1 class="display hero-info__display">Step-by-step guide to choosing great font pairs</h1>
-                    <p>By <a href="author.html" class="hero-info__link-author"><span style="color: #FFD050";> James West</span></a> &nbsp|&nbsp May 23, 2022</p>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu<br>
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                    <button class="btn hero-info__btn" onclick="document.location='blog-post.html'">Read More ></button>
+            <div class="footer__subscription-form">
+                <h2>Subscribe to our news letter to get<br> latest updates and news</h2>
+                <div class="footer__form">
+                    <form action="#" method="get">
+                        <label for="email"></label>
+                        <input type="email" placeholder="Enter Your Email" id="email">
+                        <button type="submit" class="btn footer__btn">Subscribe</button>
+                    </form>
                 </div>
             </div>
 
-            <div class="posts">
-                <div class="posts__conrainer">
-                    <div class="posts__featured-post">
-                        <h2>Featured Post</h2>
-                        <div class="posts__wrapper">
-                            <img class="posts__image" src="images/featured post.svg">
-                            <div class="name-date posts__name-date"><label>By <a href="author.html" class="posts__link-author"><span>John Doe</span></a> &nbsp I &nbsp May 23, 2022</label></div>
-                            <div class="posts__info">
-                                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit, sed do eiusmod tempor.</h3>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore<br>
-                                   eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                            </div>
-                            <button class="btn posts__btn" onclick="document.location='blog-post.html'">Read More ></button>                            
-                        </div>
-                    </div>
-                    <div class="posts__all-posts">
-                        <div class="posts__wrapper-all">
-                            <div class="posts__all-title">
-                                <h2>All Posts</h2>
-                                <a href="blog.html" class="posts__all-posts__link"><span>View All</span></a>
-                            </div>
-                            <div class="posts__post-card">
-                                <div class="name-date posts__card-name-date">                                                                        
-                                    <label>By <a href="author.html" class="posts__all-posts__link-author"><span>John Doe</span></a> &nbsp I &nbsp Aug 23, 2021</label>
-                                </div>
-                                <a href="blog-post.html" class="posts__all-posts__link-post"><h4>8 Figma design systems that<br> you can download for free<br> today.</h4></a>                                    
-                            </div>
-                            <div class="posts__post-card">
-                                <div class="name-date posts__card-name-date">                                                                        
-                                    <label>By <a href="author.html" class="posts__all-posts__link-author"><span>John Doe</span></a> &nbsp I &nbsp Aug 23, 2021</label>
-                                </div>
-                                <a href="blog-post.html" class="posts__all-posts__link-post"><h4>8 Figma design systems that<br> you can download for free<br> today.</h4></a>                                    
-                            </div>
-                            <div class="posts__post-card">
-                                <div class="name-date posts__card-name-date">                                                                        
-                                    <label>By <a href="author.html" class="posts__all-posts__link-author"><span>John Doe</span></a> &nbsp I &nbsp Aug 23, 2021</label>
-                                </div>
-                                <a href="blog-post.html" class="posts__all-posts__link-post"><h4>8 Figma design systems that<br> you can download for free<br> today.</h4></a>                                    
-                            </div>
-                            <div class="posts__post-card">
-                                <div class="name-date posts__card-name-date">                                                                        
-                                    <label>By <a href="author.html" class="posts__all-posts__link-author"><span>John Doe</span></a> &nbsp I &nbsp Aug 23, 2021</label>
-                                </div>
-                                <a href="blog-post.html" class="posts__all-posts__link-post"><h4>8 Figma design systems that<br> you can download for free<br> today.</h4></a>                                    
-                            </div>               
-                        </div>                        
-                    </div>
-                </div>  
-            </div>
-
-            <div class="about-mision">
-                <div class="about-mision__conrainer">
-                    <div class="about-mision__pattern">
-                        <img src="vectorgraphics/pattern.svg">                        
-                    </div>
-                    <div class="about-mision__wrapper">
-                        <div class="about-mision__about-us">
-                            <h6>ABOUT US</h6>
-                            <h2>We are a community of<br> content writers who share their<br> learnings</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <a href="about-us.html" class="about-mision__link"><span>Read More ></span></a>
-                        </div>
-                        <div class="about-mision__our-mision">
-                            <h6>OUR MISION</h6>
-                            <h3>Creating valuable content for<br> creatives all around the world</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-                    </div>
+            <div class="footer__bottom">
+                <div class="footer__address">
+                    <p>Finstreet 118 2561 Fintown<br>
+                        Hello@finsweet.com&nbsp 020 7993 2905</p>
+                </div>
+                <div class="footer__social-wrapper">
+                    <a class="footer__social-logo" href=""><img src="vectorgraphics/icons/facebook-grey.svg"></a>
+                    <a class="footer__social-logo" href=""><img src="vectorgraphics/icons/twitter-grey.svg"></a>
+                    <a class="footer__social-logo" href=""><img src="vectorgraphics/icons/instagram-grey.svg"></a>
+                    <a class="footer__social-logo" href=""><img src="vectorgraphics/icons/linkedIn-grey.svg"></a>
                 </div>
             </div>
+        </div>
+    </footer>
+</body>
 
-            <div class="choose">
-                <div class="choose__conrainer">
-                    <div class="choose__title">
-                        <h2>Choose A Catagory</h2>
-                    </div>                    
-                    <div class="choose__catagories">
-                        <div class="choose__item">
-                            <a href="category.html" class="choose__item__link">
-                                <img class="choose__icon" src="vectorgraphics/icons/icon-1.svg">
-                                <h3>Business</h3>
-                                <p>Lorem ipsum dolor sit amet,<br> consectetuer adipiscing elit.</p>
-                             </a>
-                        </div>
-                        <div class="choose__item">
-                            <a href="category.html" class="choose__item__link">
-                                <img class="choose__icon choose__icon-2" src="vectorgraphics/icons/icon-2.svg">
-                                <h3>Startup</h3>
-                                <p>Lorem ipsum dolor sit amet,<br> consectetuer adipiscing elit.</p>
-                            </a>
-                        </div>
-                        <div class="choose__item">
-                            <a href="category.html" class="choose__item__link">
-                                <img class="choose__icon" src="vectorgraphics/icons/icon-3.svg">
-                                <h3>Economy</h3>
-                                <p>Lorem ipsum dolor sit amet,<br> consectetuer adipiscing elit.</p>
-                            </a>
-                        </div>
-                        <div class="choose__item">
-                            <a href="category.html" class="choose__item__link">
-                                <img class="choose__icon" src="vectorgraphics/icons/icon-4.svg">
-                                <h3>Technology</h3>
-                                <p>Lorem ipsum dolor sit amet,<br> consectetuer adipiscing elit.</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="special-post">
-                <div class="special-post__conrainer">
-                    <div class="special-post__content">
-                        <h6>WHY WE STARTED</h6>
-                        <h1>It started out as a simple idea and evolved into our passion</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
-                        </p>
-                        <button class="btn special-post__btn" onclick="document.location='about-us.html'">Discover our story ></button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="list-of-authors">
-                <div class="list-of-authors__conrainer">
-                    <div class="list-of-authors__title">
-                        <h2>List of Authors</h2>
-                    </div>                    
-                    <div class="list-of-authors__authors">
-                        <div class="list-of-authors__item">
-                            <a class="list-of-authors__link-author" href="author.html"><img class="list-of-authors__image" src="images/author-1.svg"></a>                            
-                            <h3>Floyd Miles</h3>
-                            <p>Content Writer @Company</p>
-                            <div class="social-wrapper list-of-authors__social-wrapper">
-                                <a class="list-of-authors__social-logo" href=""><img src="vectorgraphics/icons/Facebook.svg"></a>
-                                <a class="list-of-authors__social-logo" href=""><img src="vectorgraphics/icons/twitter.svg"></a>
-                                <a class="list-of-authors__social-logo" href=""><img src="vectorgraphics/icons/instagram.svg"></a>
-                                <a class="list-of-authors__social-logo" href=""><img src="vectorgraphics/icons/LinkedIn.svg"></a>
-                            </div>
-                            
-                        </div>
-                        <div class="list-of-authors__item">
-                            <a class="list-of-authors__link-author" href="author.html"><img class="list-of-authors__image" src="images/author-2.svg"></a>
-                            <h3>Dianne Russell</h3>
-                            <p>Content Writer @Company</p>
-                            <div class="social-wrapper list-of-authors__social-wrapper">
-                                <a class="list-of-authors__social-logo" href=""><img src="vectorgraphics/icons/Facebook.svg"></a>
-                                <a class="list-of-authors__social-logo" href=""><img src="vectorgraphics/icons/twitter.svg"></a>
-                                <a class="list-of-authors__social-logo" href=""><img src="vectorgraphics/icons/instagram.svg"></a>
-                                <a class="list-of-authors__social-logo" href=""><img src="vectorgraphics/icons/LinkedIn.svg"></a>
-                            </div>
-                        </div>
-                        <div class="list-of-authors__item">
-                            <a class="list-of-authors__link-author" href="author.html"><img class="list-of-authors__image" src="images/author-3.svg"></a>
-                            <h3>Jenny Wilson</h3>
-                            <p>Content Writer @Company</p>
-                            <div class="social-wrapper list-of-authors__social-wrapper">
-                                <a class="list-of-authors__social-logo" href=""><img src="vectorgraphics/icons/Facebook.svg"></a>
-                                <a class="list-of-authors__social-logo" href=""><img src="vectorgraphics/icons/twitter.svg"></a>
-                                <a class="list-of-authors__social-logo" href=""><img src="vectorgraphics/icons/instagram.svg"></a>
-                                <a class="list-of-authors__social-logo" href=""><img src="vectorgraphics/icons/LinkedIn.svg"></a>
-                            </div>
-                        </div>
-                        <div class="list-of-authors__item">
-                            <a class="list-of-authors__link-author" href="author.html"><img class="list-of-authors__image" src="images/author-4.svg"></a>
-                            <h3>Leslie Alexander</h3>
-                            <p>Content Writer @Company</p>
-                            <div class="social-wrapper list-of-authors__social-wrapper">
-                                <a class="list-of-authors__social-logo" href=""><img src="vectorgraphics/icons/Facebook.svg"></a>
-                                <a class="list-of-authors__social-logo" href=""><img src="vectorgraphics/icons/twitter.svg"></a>
-                                <a class="list-of-authors__social-logo" href=""><img src="vectorgraphics/icons/instagram.svg"></a>
-                                <a class="list-of-authors__social-logo" href=""><img src="vectorgraphics/icons/LinkedIn.svg"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="logo-component">
-                <div class="logo-component__conrainer">
-                    <div class="logo-component__text">
-                        <p>We are</p>
-                        <h4>Featured in</h4>
-                    </div>
-                    <div class="logo-component__logo-wrapper">
-                        <img class="logo-component__image" src="vectorgraphics/logos/logo-1.svg">
-                        <img class="logo-component__image" src="vectorgraphics/logos/logo-2.svg">
-                        <img class="logo-component__image" src="vectorgraphics/logos/logo-3.svg">
-                        <img class="logo-component__image" src="vectorgraphics/logos/logo-4.svg">
-                        <img class="logo-component__image" src="vectorgraphics/logos/logo-5.svg">
-                    </div>
-                </div>
-            </div>
-
-            <div class="testimonials">
-                <div class="testimonials__conrainer">
-                    <div class="testimonials__heading">
-                        <h6>TESTIMONIALS</h6>
-                        <h2>What people say about our blog</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                    </div>
-                    <div class="testimonials__division">
-                        <img class="testimonials__line" src="vectorgraphics/line-1.svg">                        
-                    </div>
-                    <div class="testimonials__messages">
-                        <h4>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do<br> eiusmod tempor
-                            incididunt ut labore et<br> dolore magna aliqua.</h4>
-                        <div class="testimonials__profile-and-buttons">
-                            <div class="testimonials__profile">
-                                <img class="testimonials__profile-image" src="images/profile-pic.svg">
-                                <div class="testimonials__profile-name">
-                                    <h4>Jonathan Vallem</h4>
-                                    <p>New york, USA</p>
-                                </div>
-                            </div>
-                            <div class="testimonials__buttons">
-                                <button class="testimonials-btn"><img class="testimonials__button-back" src="vectorgraphics/back-button.svg"></button>
-                                <button class="testimonials-btn"><img class="testimonials__button-next" src="vectorgraphics/next-button.svg"></button>
-                            </div>
-                        </div>                        
-                    </div>
-                </div>
-            </div>
-
-            <div class="join-team">
-                <div class="join-team__conrainer">
-                    <h2>Join our team to be a part of our story</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    <button class="btn join-team__btn">Join Now</button>
-                </div>
-            </div>
-        </main>
-
-        <footer class="footer">
-            <div class="footer__conrainer">
-                <div class="footer__top">
-                    <img class="footer__logo" src="vectorgraphics/finsweet-logo.svg">
-                    <nav class="footer__menu">                    
-                        <ul class="footer__menu-list">
-                            <li class="footer__menu-li"><a href="index.html" class="footer__link">Home</a></li>
-                            <li class="footer__menu-li"><a href="blog.html" class="footer__link">Blog</a></li>
-                            <li class="footer__menu-li"><a href="about-us.html" class="footer__link">About us</a></li>
-                            <li class="footer__menu-li"><a href="contact-us.html" class="footer__link">Contact us</a></li>
-                            <li class="footer__menu-li"><a href="privacy-policy.html" class="footer__link">Privacy Policy</a></li>
-                        </ul>
-                    </nav>                    
-                </div>
-
-                <div class="footer__subscription-form">
-                    <h2>Subscribe to our news letter to get<br> latest updates and news</h2>
-                    <div class="footer__form">
-                        <form action="#" method="get">
-                            <label for="email"></label>
-                            <input type="email" placeholder="Enter Your Email" id="email">
-                            <button type="submit" class="btn footer__btn">Subscribe</button>
-                        </form>
-                    </div>
-                </div>
-
-                <div class="footer__bottom">
-                    <div class="footer__address">
-                        <p>Finstreet 118 2561 Fintown<br>
-                        Hello@finsweet.com&nbsp  020 7993 2905</p>
-                    </div>
-                    <div class="footer__social-wrapper">
-                        <a class="footer__social-logo" href=""><img src="vectorgraphics/icons/facebook-grey.svg"></a>
-                        <a class="footer__social-logo" href=""><img src="vectorgraphics/icons/twitter-grey.svg"></a>
-                        <a class="footer__social-logo" href=""><img src="vectorgraphics/icons/instagram-grey.svg"></a>
-                        <a class="footer__social-logo" href=""><img src="vectorgraphics/icons/linkedIn-grey.svg"></a>
-                    </div>                   
-                </div>
-            </div>
-        </footer>
-    </body>
 </html>

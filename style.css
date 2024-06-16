@@ -19,7 +19,7 @@ html,body{
 button:hover {
     background-color: #EDC14A;    
     transition: background-color 0.3s ease-in;
-  }
+}
 
 .header__contaner{       
     display: flex;    
@@ -82,12 +82,12 @@ a{
 .header__btn:hover {
     background-color: #F4F4F4;    
     transition: background-color 0.3s ease-in;
-  }
+}
 
 .hero-info{    
     height: 720px;
     background-image: url("images/overlay.svg"),
-                      url("images/man.svg");
+                    url("images/man.jpg");
     padding: 128px 556px 192px 80px;
     
 }
@@ -335,7 +335,7 @@ h4{
     justify-content: space-between
 }
 
-.choose__item__link{
+.choose__item-link{
     text-decoration: none;
     color: #232536;
 }
@@ -378,7 +378,7 @@ h4{
 .special-post__conrainer{
     position: relative;
     height: 705px;
-    background-image: url("images/special-post.svg");
+    background-image: url("images/special-post.jpg");
     background-repeat: no-repeat;
 }
 
@@ -965,7 +965,7 @@ h4{
 
 .overview__contaner{    
     height: 444px;
-    background-image: url(images/overview-img.svg);
+    background-image: url(images/overview-img.jpg);
     position: relative;
 }
 
