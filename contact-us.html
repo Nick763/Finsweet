@@ -1,126 +1,129 @@
 <!DOCTYPE html>
-<html lang="ru">	
-	<head>		
-		<title>Contact us - Finsweet</title>
-        <meta charset="UTF-8">		
-		<link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="reset.css">
-        <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	</head>
+<html lang="ru">
 
-    <body>
-        <header class="header">
-            <div class="header__contaner">
-                <img class="header__logo" src="vectorgraphics/finsweet-logo.svg">
-                <nav class="header__menu">                    
-                    <ul class="header__menu-list">
-                        <li class="header__menu-li"><a href="index.html" class="header__link">Home</a></li>
-                        <li class="header__menu-li"><a href="blog.html" class="header__link">Blog</a></li>
-                        <li class="header__menu-li"><a href="about-us.html" class="header__link">About Us</a></li>
-                        <li class="header__menu-li"><a href="contact-us.html" class="header__link">Contact us</a></li>
+<head>
+    <title>Contact us - Finsweet</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=1440">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__contaner">
+            <img class="header__logo" src="vectorgraphics/finsweet-logo.svg">
+            <nav class="header__menu">
+                <ul class="header__menu-list">
+                    <li class="header__menu-li"><a href="index.html" class="header__link">Home</a></li>
+                    <li class="header__menu-li"><a href="blog.html" class="header__link">Blog</a></li>
+                    <li class="header__menu-li"><a href="about-us.html" class="header__link">About Us</a></li>
+                    <li class="header__menu-li"><a href="contact-us.html" class="header__link">Contact us</a></li>
+                </ul>
+            </nav>
+            <button class="btn header__btn">Subscribe</button>
+        </div>
+    </header>
+
+    <main class="contact-us">
+        <div class="contact-title">
+            <div class="contact-title__conrainer">
+                <h6>CONTACT US</h6>
+                <h1>Let’s Start a Conversation</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim.</p>
+            </div>
+        </div>
+        <div class="info-card">
+            <div class="info-card__conrainer">
+                <div class="info-card__working-hours">
+                    <p class="info-card__titles">Working hours</p>
+                    <div class="info-card__line"></div>
+                    <h5>Monday To Friday</h5>
+                    <h5>9:00 AM to 8:00 PM</h5>
+                    <p>Our Support Team is available 24/7</p>
+                </div>
+                <div class="info-card__contacts">
+                    <p class="info-card__titles">Contact Us</p>
+                    <div class="info-card__line"></div>
+                    <h5>020 7993 2905</h5>
+                    <p>hello@finsweet.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="#" method="get">
+                <div class="contact-form__group">
+                    <label for="name"></label>
+                    <input type="text" placeholder="Full Name" id="name">
+                </div>
+                <div class="contact-form__group">
+                    <label for="email"></label>
+                    <input type="email" placeholder="Your Email" id="email">
+                </div>
+                <div class="contact-form__group">
+                    <label for="Query Related"></label>
+                    <select id="Query Related">
+                        <option value="">
+                            Query Related
+                        </option>
+                        <option value="other">
+                            Other
+                        </option>
+                    </select>
+                </div>
+                <div class="contact-form__group input-message">
+                    <label for="message"></label>
+                    <textarea placeholder="Message" id="message"></textarea>
+                </div>
+                <button type="submit" class="btn contact-form__btn">Send Message</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__conrainer">
+            <div class="footer__top">
+                <img class="footer__logo" src="vectorgraphics/finsweet-logo.svg">
+                <nav class="footer__menu">
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-li"><a href="index.html" class="footer__link">Home</a></li>
+                        <li class="footer__menu-li"><a href="blog.html" class="footer__link">Blog</a></li>
+                        <li class="footer__menu-li"><a href="about-us.html" class="footer__link">About us</a></li>
+                        <li class="footer__menu-li"><a href="contact-us.html" class="footer__link">Contact us</a></li>
+                        <li class="footer__menu-li"><a href="privacy-policy.html" class="footer__link">Privacy
+                                Policy</a></li>
                     </ul>
                 </nav>
-                <button class="btn header__btn">Subscribe</button>
             </div>
-        </header>
 
-        <main class="contact-us">            
-            <div class="contact-title">
-                <div class="contact-title__conrainer">
-                    <h6>CONTACT US</h6>
-                    <h1>Let’s Start a Conversation</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
-                </div>
-            </div>
-            <div class="info-card">
-                <div class="info-card__conrainer">
-                    <div class="info-card__working-hours">
-                        <p class="info-card__titles">Working hours</p>
-                        <div class="info-card__line"></div>
-                        <h5>Monday To Friday</h5>
-                        <h5>9:00 AM to 8:00 PM</h5>
-                        <p>Our Support Team is available 24/7</p>
-                    </div>                        
-                    <div class="info-card__contacts">
-                        <p class="info-card__titles">Contact Us</p>
-                        <div class="info-card__line"></div>
-                        <h5>020 7993 2905</h5>
-                        <p>hello@finsweet.com</p>
-                    </div>
-                </div>
-            </div>
-            <div class="contact-form"> 
-                <form action="#" method="get">
-                    <div class="contact-form__group">
-                        <label for="name"></label>
-                        <input type="text" placeholder="Full Name" id="name">
-                    </div>
-                    <div class="contact-form__group">
+            <div class="footer__subscription-form">
+                <h2>Subscribe to our news letter to get<br> latest updates and news</h2>
+                <div class="footer__form">
+                    <form action="#" method="get">
                         <label for="email"></label>
-                        <input type="email" placeholder="Your Email" id="email">
-                    </div>
-                    <div class="contact-form__group">
-                        <label for="Query Related"></label>
-                        <select id="Query Related">
-                            <option value="">
-                            Query Related
-                            </option>                              
-                            <option value="other">
-                            Other
-                            </option>
-                        </select> 
-                    </div>
-                    <div class="contact-form__group input-message">
-                        <label for="message"></label>
-                        <textarea placeholder="Message" id="message"></textarea>
-                    </div>
-                    <button type="submit" class="btn contact-form__btn">Send Message</button>
-                </form>
-            </div>
-        </main>
-
-        <footer class="footer">
-            <div class="footer__conrainer">
-                <div class="footer__top">
-                    <img class="footer__logo" src="vectorgraphics/finsweet-logo.svg">
-                    <nav class="footer__menu">                    
-                        <ul class="footer__menu-list">
-                            <li class="footer__menu-li"><a href="index.html" class="footer__link">Home</a></li>
-                            <li class="footer__menu-li"><a href="blog.html" class="footer__link">Blog</a></li>
-                            <li class="footer__menu-li"><a href="about-us.html" class="footer__link">About us</a></li>
-                            <li class="footer__menu-li"><a href="contact-us.html" class="footer__link">Contact us</a></li>
-                            <li class="footer__menu-li"><a href="privacy-policy.html" class="footer__link">Privacy Policy</a></li>
-                        </ul>
-                    </nav>                    
-                </div>
-
-                <div class="footer__subscription-form">
-                    <h2>Subscribe to our news letter to get<br> latest updates and news</h2>
-                    <div class="footer__form">
-                        <form action="#" method="get">
-                            <label for="email"></label>
-                            <input type="email" placeholder="Enter Your Email" id="email">
-                            <button type="submit" class="btn footer__btn">Subscribe</button>
-                        </form>
-                    </div>
-                </div>
-
-                <div class="footer__bottom">
-                    <div class="footer__address">
-                        <p>Finstreet 118 2561 Fintown<br>
-                        Hello@finsweet.com&nbsp  020 7993 2905</p>
-                    </div>
-                    <div class="footer__social-wrapper">
-                        <a class="footer__social-logo" href=""><img src="vectorgraphics/icons/facebook-grey.svg"></a>
-                        <a class="footer__social-logo" href=""><img src="vectorgraphics/icons/twitter-grey.svg"></a>
-                        <a class="footer__social-logo" href=""><img src="vectorgraphics/icons/instagram-grey.svg"></a>
-                        <a class="footer__social-logo" href=""><img src="vectorgraphics/icons/linkedIn-grey.svg"></a>
-                    </div>                   
+                        <input type="email" placeholder="Enter Your Email" id="email">
+                        <button type="submit" class="btn footer__btn">Subscribe</button>
+                    </form>
                 </div>
             </div>
-        </footer>        
-    </body>
+
+            <div class="footer__bottom">
+                <div class="footer__address">
+                    <p>Finstreet 118 2561 Fintown<br>
+                        Hello@finsweet.com&nbsp 020 7993 2905</p>
+                </div>
+                <div class="footer__social-wrapper">
+                    <a class="footer__social-logo" href=""><img src="vectorgraphics/icons/facebook-grey.svg"></a>
+                    <a class="footer__social-logo" href=""><img src="vectorgraphics/icons/twitter-grey.svg"></a>
+                    <a class="footer__social-logo" href=""><img src="vectorgraphics/icons/instagram-grey.svg"></a>
+                    <a class="footer__social-logo" href=""><img src="vectorgraphics/icons/linkedIn-grey.svg"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
 </html>
-    
